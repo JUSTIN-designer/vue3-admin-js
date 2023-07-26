@@ -2,7 +2,7 @@
 	<el-container>
       <el-aside width="200px"><Aside/></el-aside>
       <el-container>
-        <el-header>Header</el-header>
+        <el-header><Header/></el-header>
         <el-main><router-view/></el-main>
       </el-container>
     </el-container>
@@ -10,6 +10,7 @@
 <script lang="ts" setup>
 import {ElContainer, ElAside, ElHeader, ElMain} from 'element-plus'
 import Aside from './Aside.vue';
+import Header from './Header.jsx';
 
 </script>
 <style scoped>
